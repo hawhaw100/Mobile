@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_acc"
+            android:icon="@drawable/ic_acc_24dp"
+            android:title="@string/addAccount" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search_24"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_library"
+            android:icon="@drawable/ic_library_24"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_new"
+            android:icon="@drawable/ic_new_24dp"
+            android:title="@string/whatsNew" />
+        <item
+            android:id="@+id/nav_recents"
+            android:icon="@drawable/ic_recents_24dp"
+            android:title="@string/recents" />
+        <item
+            android:id="@+id/nav_updates"
+            android:icon="@drawable/ic_update_24dp"
+            android:title="@string/yourUpdates" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_24dp"
+            android:title="@string/settings" />
+    </group>
+</menu>
