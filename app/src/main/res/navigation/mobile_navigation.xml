@@ -23,4 +23,17 @@
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
 
+    <fragment
+        android:id="@+id/libraryFragment"
+        android:name="com.example.app.fragment_slideshow">
+
+        <action
+            android:id="@+id/action_libraryFragment_to_favoritesFragment"
+            app:destination="@id/favoritesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.app.favorites_fragment" />
+
 </navigation>
