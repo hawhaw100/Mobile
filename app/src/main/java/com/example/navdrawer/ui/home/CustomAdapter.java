@@ -9,7 +9,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.navdrawer.R;
-
 public class CustomAdapter extends BaseAdapter {
     Context context;
     String artists[];
@@ -31,14 +30,10 @@ public class CustomAdapter extends BaseAdapter {
     }
 
     @Override
-    public Object getItem(int position) {
-        return null;
-    }
+    public Object getItem(int position) { return null; }
 
     @Override
-    public long getItemId(int position) {
-        return 0;
-    }
+    public long getItemId(int position) { return 0; }
 
     public class Holder {
         ImageView iv;
@@ -59,19 +54,6 @@ public class CustomAdapter extends BaseAdapter {
         holder.iv.setImageResource(imageIds[position]);
         holder.tv.setText(songs[position]);
 
-
-        // convertView.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Bundle args = new Bundle();
-//                args.putString("title", songs[position]);
-//                Navigation.findNavController((Activity) context,
-//                                R.id.nav_host_fragment_activity_main).
-//                        navigate(R.id.action_FirstFragment_to_SecondFragment,
-//                                args);
-//            }
-//        });
         return convertView;
     }
 }
-

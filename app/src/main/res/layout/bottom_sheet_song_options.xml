@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tvSongName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Song Name"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp"/>
+    <TextView
+        android:id="@+id/tvArtistN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artist Name"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp"/>
+    <TableRow>
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/play"
+        android:layout_margin="3dp"
+        android:layout_gravity="center"
+        android:contentDescription="Play"/>
+
+    <TextView
+        android:id="@+id/tvPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:textSize="25sp"
+        android:padding="15dp"/>
+    </TableRow>
+<TableRow>
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/outline_add_24"
+        android:layout_margin="3dp"
+        android:layout_gravity="center"
+        android:contentDescription="Add"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add to Playlist"
+        android:textSize="25sp"
+        android:padding="15dp"/>
+</TableRow>
+    <TableRow>
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/share"
+            android:layout_margin="3dp"
+            android:layout_gravity="center"
+            android:contentDescription="Share"/>
+    <TextView
+        android:id="@+id/tvshare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:textSize="25sp"
+        android:padding="15dp"/>
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/delete"
+            android:layout_margin="3dp"
+            android:layout_gravity="center"
+            android:contentDescription="Delete"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Delete"
+            android:textSize="25sp"
+            android:padding="15dp"/>
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_library_24"
+            android:layout_margin="3dp"
+            android:layout_gravity="center"
+            android:contentDescription="Library"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Library"
+            android:textSize="25sp"
+            android:padding="15dp"/>
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/favorite"
+            android:layout_margin="3dp"
+            android:layout_gravity="center"
+            android:contentDescription="Favorite"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add to Liked Songs"
+            android:textSize="25sp"
+            android:padding="15dp"/>
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/info"
+            android:layout_margin="3dp"
+            android:layout_gravity="center"
+            android:contentDescription="About"/>
+        <TextView
+            android:id="@+id/tvAbout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:textSize="25sp"
+            android:padding="15dp"/>
+    </TableRow>
+    <TableRow>
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/youtube"
+        android:layout_margin="3dp"
+        android:layout_gravity="center"
+        android:contentDescription="Youtube"/>
+    <TextView
+        android:id="@+id/tvYoutube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play with Youtube"
+        android:textSize="25sp"
+        android:padding="15dp"/>
+</TableRow>
+
+
+</TableLayout>
